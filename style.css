@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  width: 100%;
+  background: url(files/background.png);
+}
+
+.menu {
+  margin-left: 15px;
+}
+
+.waves {
+  position: fixed;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+}
+
+.tabs {
+  text-decoration: underline;
+}
+
+.blue {
+  color: #5271FF;
+}
+
+.boat {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#boat-one {
+  position: fixed;
+  width: 700px;
+}
+
+#boat-two {
+  position: relative;
+  width: 700px;
+}
+
+#coxswain {
+  cursor: pointer;
+  position: fixed;
+  left: calc(50% - 252px);
+  top: calc(50% + 25px);
+  width: 100px;
+}
+
+#seats {
+  cursor: pointer;
+  position: fixed;
+  left: calc(50% - 161px);
+  top: calc(50% - 40px);
+  width: 390px;
+  rotate: -29.5deg;
+}
+
+.seat-window {
+  position: fixed;
+  top: 15px;
+  right: -1000px;
+  width: 600px;
+  height: calc(100% - 30px);
+  opacity: 80%;
+  background: #ebebeb;
+  border-radius: 30px;
+  transition: .5s ease-in-out;
+}
+
+.seat-window p, .seat-window h2 {
+  margin-left: 15px;
+}
+
+.close-seat-window {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.coxswain-window {
+  position: fixed;
+  top: 15px;
+  right: -1000px;
+  width: 350px;
+  height: 200px;
+  opacity: 80%;
+  background: #ebebeb;
+  border-radius: 30px;
+  transition: .5s ease-in-out;
+}
+
+.coxswain-window p, .coxswain-window h2 {
+  margin-left: 15px;
+}
+
+.close-coxswain-window {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+a {
+  cursor: pointer;
+  color: #5271FF;
+  text-decoration: underline;
+}
+
+.form-window {
+  position: fixed;
+  top: 15px;
+  right: -1000px;
+  width: 400px;
+  height: calc(100% - 30px);
+  opacity: 80%;
+  background: #ebebeb;
+  border-radius: 30px;
+  transition: .5s ease-in-out;
+}
+
+.form-window p, .form-window h2 {
+  margin-left: 15px;
+}
+
+.close-form-window {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.tabs p {
+  cursor: pointer;
+}
+
+.oar-btn {
+  cursor: pointer;
+  position: fixed;
+  left: 100px;
+  bottom: -25px;
+}
+
+.oar-window {
+  position: fixed;
+  top: 15px;
+  right: -1000px;
+  width: 400px;
+  height: calc(100% - 30px);
+  opacity: 80%;
+  background: #ebebeb;
+  border-radius: 30px;
+  transition: .5s ease-in-out;
+}
+
+.oar-window p, .oar-window h2 {
+  margin-left: 15px;
+}
+
+.close-oar-window {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.oar-window img {
+  border-radius: 30px;
+}

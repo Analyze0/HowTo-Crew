@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HowTo Crew</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="menu" id="menu">
+    <h1>HowTo <span class="blue">Crew</span></h1>
+    <div class="tabs" id="tabs">
+      <p id="about-btn" class="about-btn">What is crew?</p>
+      <p id="how-btn" class="how-btn">How does this website work?</p>
+      <p id="positions-btn" class="positions-btn" onmousedown="document.getElementById('form-window').style.right = '15px';">Positions and proper rowing form.</p>
+    </div>
+  </div>
+
+  <div class="boat">
+    <img src="files/boat-one.png" alt="" id="boat-one">
+    <img src="files/boat-two.png" alt="" id="boat-two">
+    <img src="files/coxswain.png" alt="" id="coxswain">
+    <img src="files/seats.png" alt="" id="seats">
+  </div>
+
+  <div class="seat-window" id="seat-window">
+    <span class="close-seat-window" id="close-seat-window">[close]</span>
+    <h2>Boat Seating</h2>
+    <p>On an 8-seater there are 8 seats each with their own side. Even number seats (2, 4, 6) are the port side seats, while odd number seats (1, 3, 5) are the starboard side seats. Seat 1 is closest to the <a onmousedown="document.getElementById('coxswain-window').style.right = '15px';">coxswain</a>, and 8 is the furthest. All rowers face in the direction of the <a onmousedown="document.getElementById('coxswain-window').style.right = '15px';">coxswain</a>. The stern 4 are 8, 7, 6, and 5, and the bow 4 are 4, 3, 2, and 1. Seat 8 is the stroke seat. The stroke seat is the seat that everyone else on the boat follows rythm with. Seat 1 is the bow seat and is frequently used the most for turning the boat.</p>
+    <h2>Seat Function</h2>
+    <p>Each seat is composed of two parts. There are the footboards to strap your feet into the boat when you are rowing. Then there are also the sliding seats on their tracks.</p>
+    <center>
+      <img src="files/seat.png" alt="" class="seat" id="seat" width="300px">
+      <br>
+      <a id="form-btn" class="form-btn" onmousedown="document.getElementById('form-window').style.right = '15px';">Proper Rowing Form</a>
+    </center>
+  </div>
+
+  <div class="coxswain-window" id="coxswain-window">
+    <span class="close-coxswain-window" id="close-coxswain-window">[close]</span>
+    <h2>Coxswain</h2>
+    <p><i>Pronounced: Cox-in</i><br><br>The coxswain is the person in the front of the stern who steers the rudder and yells instructions to the rowers.</p>
+  </div>
+
+  <div class="form-window" id="form-window">
+    <span class="close-form-window" id="close-form-window">[close]</span>
+    <h2>Proper Rowing Form</h2>
+    <p>Make sure to sit up tall when you are rowing. When you are rowing it goes in this order: arms out, push legs out, pull back and lean back. Then do the opposite.</p>
+    <center>
+      <img src="files/rowing.gif" width="300px">
+    </center>
+    <h2>Positions</h2>
+    <p>The rowing cycle is in this order: The catch, the finish, the catch. In between each position is called the drive phase. The drive phase is pretty much just the transition between the two, or when you are actually pushing or pulling the oar.</p>
+    <center>
+      <img src="files/positions.png" width="300px">
+    </center>
+  </div>
+
+  <div class="oar-window" id="oar-window">
+    <span class="close-oar-window" id="close-oar-window">[close]</span>
+    <h2>Oars</h2>
+    <p>Your oar is squared when it is held straight up. It is feathered when it is flat on the water.</p>
+    <center>
+      <img src="files/oar-positions.png" width="150px">
+    </center>
+    <h2>Rigger & Oar Lock</h2>
+    <p>Each seat has its own rigger. The oar locks on the riggers hold the oars in place. When the <a onmousedown="document.getElementById('coxswain-window').style.right = '15px';">coxswain</a> says to "check your oar," it means to square your oar and hold it in the water. Another thing to know is the safety position. The safety position is when you hold the oar with your farthest arm from the rigger, then place your arm closest to the rigger on the rigger.</p>
+    <center>
+      <img src="files/rigger.png" width="150px">
+    </center>
+  </div>
+
+  <img src="files/oar-square.png" width="300px" class="oar-btn" id="oar-btn">
+
+  <!--<img src="files/waves.gif" alt="" class="waves" id="waves">-->
+  <script src="script.js"></script>
+</body>
+
+</html>
